@@ -322,17 +322,12 @@ margin-bottom: 8px;
 }
 
 .team-punkts {
- background-color: var(--iris-color);
- border-radius: 50%;
  width: 40px;
  height: 40px;
- display: flex;
- align-items: center;
- justify-content: center;
 }
 
-.team-punkts:hover,
-.team-punkts:focus{
+.team-link:hover,
+.team-link:focus{
     background-color: var(--ocean-color);
 }
 
@@ -342,6 +337,8 @@ margin-bottom: 8px;
     justify-content: center;
     width: 100%;
     height: 100%;
+    background-color: var(--iris-color);
+    border-radius: 50%;
 }
 
 .team-icon{
@@ -387,14 +384,15 @@ height: 88px;
 
 }
 
+.customers-link:hover .customers-card, 
+.customers-link:focus .customers-card{
+
+    fill: var(--ocean-color);
+}
+
 .customers-penkts:hover,
 .customers-penkts:focus{
     border: 1px solid var(--ocean-color);
-}
-
-.customers-card:hover,
-.customers-card:focus{
-    fill: var(--ocean-color);
 }
 
 .customers-card{
